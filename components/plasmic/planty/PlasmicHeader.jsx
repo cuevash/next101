@@ -94,7 +94,13 @@ function PlasmicHeader__RenderFunc(props) {
           >
             <LogoWhitesvgIcon
               a={""}
-              className={classNames(projectcss.all, sty.svg__fkYoz)}
+              className={classNames(projectcss.all, sty.svg__fkYoz, {
+                [sty.svgexpanded__fkYozhDxN0]: hasVariant(
+                  variants,
+                  "expanded",
+                  "expanded"
+                )
+              })}
               role={"img"}
             />
           </p.PlasmicLink>
@@ -123,7 +129,14 @@ function PlasmicHeader__RenderFunc(props) {
                 projectcss.all,
                 projectcss.a,
                 projectcss.__wab_text,
-                sty.link__vcZu4
+                sty.link__vcZu4,
+                {
+                  [sty.linkexpanded__vcZu4HDxN0]: hasVariant(
+                    variants,
+                    "expanded",
+                    "expanded"
+                  )
+                }
               )}
               component={Link}
               href={"./store"}
@@ -137,7 +150,14 @@ function PlasmicHeader__RenderFunc(props) {
                 projectcss.all,
                 projectcss.a,
                 projectcss.__wab_text,
-                sty.link__riU6
+                sty.link__riU6,
+                {
+                  [sty.linkexpanded__riU6HDxN0]: hasVariant(
+                    variants,
+                    "expanded",
+                    "expanded"
+                  )
+                }
               )}
               component={Link}
               href={"./about"}
@@ -151,7 +171,14 @@ function PlasmicHeader__RenderFunc(props) {
                 projectcss.all,
                 projectcss.a,
                 projectcss.__wab_text,
-                sty.link___7Wewr
+                sty.link___7Wewr,
+                {
+                  [sty.linkexpanded___7WewrhDxN0]: hasVariant(
+                    variants,
+                    "expanded",
+                    "expanded"
+                  )
+                }
               )}
               component={Link}
               href={"./faq"}

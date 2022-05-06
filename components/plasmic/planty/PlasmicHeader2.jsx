@@ -91,7 +91,7 @@ function PlasmicHeader2__RenderFunc(props) {
               sty.link__wmDf5
             )}
             component={Link}
-            href={"/plasmic/store"}
+            href={"./store"}
             platform={"nextjs"}
           >
             {"Store"}
@@ -105,7 +105,7 @@ function PlasmicHeader2__RenderFunc(props) {
               sty.link__xLs2C
             )}
             component={Link}
-            href={"/plasmic/about"}
+            href={"./about"}
             platform={"nextjs"}
           >
             {"About"}
@@ -119,7 +119,7 @@ function PlasmicHeader2__RenderFunc(props) {
               sty.link__n0Brg
             )}
             component={Link}
-            href={"/plasmic/faq"}
+            href={"./faq"}
             platform={"nextjs"}
           >
             {hasVariant(globalVariants, "screen", "mobile") ? "Faq" : "Faq"}
