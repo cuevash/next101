@@ -19,6 +19,7 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
+import StdLink from "../../StdLink"; // plasmic-import: ywNTGiBA0r/component
 import Header2 from "../../Header2"; // plasmic-import: 0f6fZeRfKp3EOx/component
 import ProductCard from "../../ProductCard"; // plasmic-import: -LfFeyZiOYdDxo/component
 import Ratings from "../../Ratings"; // plasmic-import: IuSNyP1i29NJld/component
@@ -120,21 +121,12 @@ function PlasmicAboutUs__RenderFunc(props) {
                   {"About"}
                 </p.PlasmicLink>
 
-                <p.PlasmicLink
-                  data-plasmic-name={"store3"}
-                  data-plasmic-override={overrides.store3}
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.a,
-                    projectcss.__wab_text,
-                    sty.store3
-                  )}
-                  component={Link}
-                  href={"./faq"}
-                  platform={"nextjs"}
-                >
-                  {"Faq"}
-                </p.PlasmicLink>
+                <StdLink
+                  data-plasmic-name={"stdLink"}
+                  data-plasmic-override={overrides.stdLink}
+                  className={classNames("__wab_instance", sty.stdLink)}
+                  linkTo={"./faq"}
+                />
               </p.Stack>
 
               {(
@@ -1619,7 +1611,7 @@ const PlasmicDescendants = {
     "root",
     "store",
     "store2",
-    "store3",
+    "stdLink",
     "foreground2",
     "h1",
     "header",
@@ -1632,7 +1624,7 @@ const PlasmicDescendants = {
 
   store: ["store"],
   store2: ["store2"],
-  store3: ["store3"],
+  stdLink: ["stdLink"],
   foreground2: ["foreground2", "h1"],
   h1: ["h1"],
   header: ["header", "featureItem"],
@@ -1674,7 +1666,7 @@ export const PlasmicAboutUs = Object.assign(
     // Helper components rendering sub-elements
     store: makeNodeComponent("store"),
     store2: makeNodeComponent("store2"),
-    store3: makeNodeComponent("store3"),
+    stdLink: makeNodeComponent("stdLink"),
     foreground2: makeNodeComponent("foreground2"),
     h1: makeNodeComponent("h1"),
     header: makeNodeComponent("header"),

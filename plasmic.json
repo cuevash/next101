@@ -302,6 +302,19 @@
           "cssFilePath": "plasmic/planty/PlasmicHeader3.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "ywNTGiBA0r",
+          "name": "StdLink",
+          "type": "managed",
+          "projectId": "pHEc37smer1Q6xynjofQze",
+          "renderModuleFilePath": "plasmic/planty/PlasmicStdLink.jsx",
+          "importSpec": {
+            "modulePath": "StdLink.jsx"
+          },
+          "cssFilePath": "plasmic/planty/PlasmicStdLink.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [

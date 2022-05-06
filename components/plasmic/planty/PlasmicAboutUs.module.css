@@ -69,9 +69,8 @@
   position: relative;
   color: var(--token-yCchoBO7S);
 }
-.store3 {
+.stdLink:global(.__wab_instance) {
   position: relative;
-  color: var(--token-yCchoBO7S);
 }
 .header2__hlCk5:global(.__wab_instance) {
   margin-top: 0px;
