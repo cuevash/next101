@@ -83,6 +83,60 @@ function PlasmicAboutUs__RenderFunc(props) {
         >
           {true ? (
             <div className={classNames(projectcss.all, sty.freeBox__cyW9M)}>
+              <p.Stack
+                as={"div"}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.freeBox__joMh5)}
+              >
+                <p.PlasmicLink
+                  data-plasmic-name={"store"}
+                  data-plasmic-override={overrides.store}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.a,
+                    projectcss.__wab_text,
+                    sty.store
+                  )}
+                  component={Link}
+                  href={"./store"}
+                  platform={"nextjs"}
+                >
+                  {"Store"}
+                </p.PlasmicLink>
+
+                <p.PlasmicLink
+                  data-plasmic-name={"store2"}
+                  data-plasmic-override={overrides.store2}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.a,
+                    projectcss.__wab_text,
+                    sty.store2
+                  )}
+                  component={Link}
+                  href={"./about"}
+                  platform={"nextjs"}
+                >
+                  {"About"}
+                </p.PlasmicLink>
+
+                <p.PlasmicLink
+                  data-plasmic-name={"store3"}
+                  data-plasmic-override={overrides.store3}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.a,
+                    projectcss.__wab_text,
+                    sty.store3
+                  )}
+                  component={Link}
+                  href={"./faq"}
+                  platform={"nextjs"}
+                >
+                  {"Faq"}
+                </p.PlasmicLink>
+              </p.Stack>
+
               {(
                 hasVariant(globalVariants, "screen", "mobile") ? true : true
               ) ? (
@@ -1563,6 +1617,9 @@ function PlasmicAboutUs__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
+    "store",
+    "store2",
+    "store3",
     "foreground2",
     "h1",
     "header",
@@ -1573,6 +1630,9 @@ const PlasmicDescendants = {
     "weThink"
   ],
 
+  store: ["store"],
+  store2: ["store2"],
+  store3: ["store3"],
   foreground2: ["foreground2", "h1"],
   h1: ["h1"],
   header: ["header", "featureItem"],
@@ -1612,6 +1672,9 @@ export const PlasmicAboutUs = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    store: makeNodeComponent("store"),
+    store2: makeNodeComponent("store2"),
+    store3: makeNodeComponent("store3"),
     foreground2: makeNodeComponent("foreground2"),
     h1: makeNodeComponent("h1"),
     header: makeNodeComponent("header"),
