@@ -2147,7 +2147,7 @@ function PlasmicFaq__RenderFunc(props) {
                               href={
                                 hasVariant(globalVariants, "screen", "mobile")
                                   ? "#"
-                                  : "/about"
+                                  : "/whonows/about"
                               }
                               platform={"nextjs"}
                             >

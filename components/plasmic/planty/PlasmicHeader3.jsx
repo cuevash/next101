@@ -98,7 +98,7 @@ function PlasmicHeader3__RenderFunc(props) {
               sty.link___9N6Z
             )}
             component={Link}
-            href={"/about"}
+            href={"/whonows/about"}
             platform={"nextjs"}
           >
             {"About"}

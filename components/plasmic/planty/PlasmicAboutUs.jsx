@@ -9,6 +9,7 @@
 // Plasmic Project: pHEc37smer1Q6xynjofQze
 // Component: StRINAEqHuRqf8
 import * as React from "react";
+import Head from "next/head";
 import Link from "next/link";
 import * as p from "@plasmicapp/react-web";
 import {
@@ -44,6 +45,20 @@ function PlasmicAboutUs__RenderFunc(props) {
 
   return (
     <React.Fragment>
+      <Head>
+        <meta name="twitter:card" content="summary" />
+        <title key="title">{"The real about"}</title>
+        <meta key="og:title" property="og:title" content={"The real about"} />
+
+        <meta
+          key="og:image"
+          property="og:image"
+          content={
+            "https://site-assets.plasmic.app/3769f09d5fa4a2d402f3e36ba1820e22.png"
+          }
+        />
+      </Head>
+
       <style>{`
         body {
           margin: 0;

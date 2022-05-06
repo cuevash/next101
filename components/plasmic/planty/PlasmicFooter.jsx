@@ -199,7 +199,7 @@ function PlasmicFooter__RenderFunc(props) {
                   sty.link__jCtlS
                 )}
                 component={Link}
-                href={"/about"}
+                href={"/whonows/about"}
                 platform={"nextjs"}
               >
                 {"About"}

@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -32,7 +32,8 @@
       "images": [],
       "indirect": true,
       "globalContextsFilePath": "",
-      "codeComponents": []
+      "codeComponents": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "pHEc37smer1Q6xynjofQze",
@@ -257,7 +258,7 @@
           "projectId": "pHEc37smer1Q6xynjofQze",
           "renderModuleFilePath": "plasmic/planty/PlasmicAboutUs.jsx",
           "importSpec": {
-            "modulePath": "../pages/about.jsx"
+            "modulePath": "../pages/whonows/about.jsx"
           },
           "cssFilePath": "plasmic/planty/PlasmicAboutUs.module.css",
           "scheme": "blackbox",
