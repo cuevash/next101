@@ -1,2 +1,3 @@
 # Rewrite a path
+/plasmic/*  /this_is_the_place/:splat     200
 /this_is_the_place/*  /plasmic/:splat    200
