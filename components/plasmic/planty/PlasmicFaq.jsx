@@ -32,7 +32,6 @@ import projectcss from "./plasmic_planty.module.css"; // plasmic-import: pHEc37s
 import sty from "./PlasmicFaq.module.css"; // plasmic-import: 7JvnWRKffJAgeh/css
 import Icon3Icon from "./icons/PlasmicIcon__Icon3"; // plasmic-import: akpqReMOnsG-aF/icon
 import DotSvgrepoCom1SvgIcon from "./icons/PlasmicIcon__DotSvgrepoCom1Svg"; // plasmic-import: bsHE52HUidiR21/icon
-import LocationSvgrepoCom1SvgIcon from "./icons/PlasmicIcon__LocationSvgrepoCom1Svg"; // plasmic-import: sXOk1_qfYvKUXe/icon
 import LogoWhitesvgIcon from "./icons/PlasmicIcon__LogoWhitesvg"; // plasmic-import: PUJ-tMkxMFdh63/icon
 
 export const PlasmicFaq__VariantProps = new Array();
@@ -94,11 +93,13 @@ function PlasmicFaq__RenderFunc(props) {
                     className={classNames(projectcss.all, sty.freeBox__kfDmF)}
                   >
                     <h1
+                      data-plasmic-name={"h1"}
+                      data-plasmic-override={overrides.h1}
                       className={classNames(
                         projectcss.all,
                         projectcss.h1,
                         projectcss.__wab_text,
-                        sty.h1___4OoqF
+                        sty.h1
                       )}
                     >
                       {"Behold our FAQ"}
@@ -1925,135 +1926,6 @@ function PlasmicFaq__RenderFunc(props) {
                       }
                     />
                   </div>
-
-                  <p.Stack
-                    as={"div"}
-                    hasGap={true}
-                    className={classNames(projectcss.all, sty.column__qaN2W)}
-                  >
-                    <h1
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.h1,
-                        projectcss.__wab_text,
-                        sty.h1__oAuLw
-                      )}
-                    >
-                      {hasVariant(globalVariants, "screen", "mobile")
-                        ? "Behold our FAQ"
-                        : "Still have questions?\nContact us. "}
-                    </h1>
-
-                    <div
-                      className={classNames(projectcss.all, sty.columns__sTXb)}
-                    >
-                      <p.Stack
-                        as={"div"}
-                        hasGap={true}
-                        className={classNames(projectcss.all, sty.column__lWEr)}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text___6TtBy
-                          )}
-                        >
-                          {hasVariant(globalVariants, "screen", "mobile")
-                            ? "Behold our FAQ"
-                            : "226 rue St-Joseph E, \nQuébec, QC, Canada, \nG1K 3A9"}
-                        </div>
-
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__hxu32
-                          )}
-                        >
-                          {hasVariant(globalVariants, "screen", "mobile")
-                            ? "Behold our FAQ"
-                            : "+1-202-555-0112"}
-                        </div>
-                      </p.Stack>
-
-                      <p.Stack
-                        as={"div"}
-                        hasGap={true}
-                        className={classNames(
-                          projectcss.all,
-                          sty.column__xfUzF
-                        )}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__c0Dq1
-                          )}
-                        >
-                          {hasVariant(globalVariants, "screen", "mobile")
-                            ? "Behold our FAQ"
-                            : "geeks@snipcart.com"}
-                        </div>
-
-                        {(
-                          hasVariant(globalVariants, "screen", "mobile")
-                            ? true
-                            : true
-                        ) ? (
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              sty.freeBox__yisDu
-                            )}
-                          >
-                            {(
-                              hasVariant(globalVariants, "screen", "mobile")
-                                ? true
-                                : true
-                            ) ? (
-                              <p.Stack
-                                as={p.PlasmicLink}
-                                hasGap={true}
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.a,
-                                  sty.link__c5U2X
-                                )}
-                                component={Link}
-                                platform={"nextjs"}
-                              >
-                                <LocationSvgrepoCom1SvgIcon
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.svg__w78AS
-                                  )}
-                                  role={"img"}
-                                />
-
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__veQyM
-                                  )}
-                                >
-                                  {hasVariant(
-                                    globalVariants,
-                                    "screen",
-                                    "mobile"
-                                  )
-                                    ? "Discover"
-                                    : "On the map"}
-                                </div>
-                              </p.Stack>
-                            ) : null}
-                          </div>
-                        ) : null}
-                      </p.Stack>
-                    </div>
-                  </p.Stack>
                 </div>
               </div>
             ) : null}
@@ -2233,6 +2105,7 @@ const PlasmicDescendants = {
   root: [
     "root",
     "foreground2",
+    "h1",
     "header",
     "featureItem",
     "bigPlants",
@@ -2240,7 +2113,8 @@ const PlasmicDescendants = {
     "menuButton"
   ],
 
-  foreground2: ["foreground2"],
+  foreground2: ["foreground2", "h1"],
+  h1: ["h1"],
   header: ["header", "featureItem"],
   featureItem: ["featureItem"],
   bigPlants: ["bigPlants"],
@@ -2278,6 +2152,7 @@ export const PlasmicFaq = Object.assign(
   {
     // Helper components rendering sub-elements
     foreground2: makeNodeComponent("foreground2"),
+    h1: makeNodeComponent("h1"),
     header: makeNodeComponent("header"),
     featureItem: makeNodeComponent("featureItem"),
     bigPlants: makeNodeComponent("bigPlants"),
