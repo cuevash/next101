@@ -172,10 +172,21 @@ function PlasmicFooter__RenderFunc(props) {
               hasGap={true}
               className={classNames(projectcss.all, sty.freeBox__jh2Vq)}
             >
-              <LogoWhitesvgIcon
-                className={classNames(projectcss.all, sty.svg__cgOim)}
-                role={"img"}
-              />
+              <p.PlasmicLink
+                className={classNames(
+                  projectcss.all,
+                  projectcss.a,
+                  sty.link__vx8A2
+                )}
+                component={Link}
+                href={"/"}
+                platform={"nextjs"}
+              >
+                <LogoWhitesvgIcon
+                  className={classNames(projectcss.all, sty.svg__cgOim)}
+                  role={"img"}
+                />
+              </p.PlasmicLink>
 
               <p.PlasmicLink
                 className={classNames(

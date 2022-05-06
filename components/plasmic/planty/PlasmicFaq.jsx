@@ -24,7 +24,6 @@ import Ratings from "../../Ratings"; // plasmic-import: IuSNyP1i29NJld/component
 import FeatureItem from "../../FeatureItem"; // plasmic-import: zao5vJN0LZKBgA/component
 import BlogPost from "../../BlogPost"; // plasmic-import: jeBG2EE2oYolA-/component
 import Footer from "../../Footer"; // plasmic-import: B_rjbW1b21_BN/component
-import MenuButton from "../../MenuButton"; // plasmic-import: CtOGPAYYB9Obua/component
 import { useScreenVariants as useScreenVariantsv5FSi0UE2M7YwV } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: V5fSI0uE2M7ywV/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import plasmic_library_plasmic_color_type_css from "../library_plasmic_color_type/plasmic_library_plasmic_color_type.module.css"; // plasmic-import: seaQhLVS4bbjiGvJJrRwyL/projectcss
@@ -32,7 +31,6 @@ import projectcss from "./plasmic_planty.module.css"; // plasmic-import: pHEc37s
 import sty from "./PlasmicFaq.module.css"; // plasmic-import: 7JvnWRKffJAgeh/css
 import Icon3Icon from "./icons/PlasmicIcon__Icon3"; // plasmic-import: akpqReMOnsG-aF/icon
 import DotSvgrepoCom1SvgIcon from "./icons/PlasmicIcon__DotSvgrepoCom1Svg"; // plasmic-import: bsHE52HUidiR21/icon
-import LogoWhitesvgIcon from "./icons/PlasmicIcon__LogoWhitesvg"; // plasmic-import: PUJ-tMkxMFdh63/icon
 
 export const PlasmicFaq__VariantProps = new Array();
 
@@ -1875,226 +1873,6 @@ function PlasmicFaq__RenderFunc(props) {
               className={classNames("__wab_instance", sty.footer__yn0Gw)}
             />
           ) : null}
-
-          <div className={classNames(projectcss.all, sty.freeBox___2A6Ga)}>
-            {true ? (
-              <div className={classNames(projectcss.all, sty.freeBox__hSRlT)}>
-                <div className={classNames(projectcss.all, sty.columns__geFw)}>
-                  <div
-                    className={classNames(projectcss.all, sty.column__bqN1F)}
-                  >
-                    <p.PlasmicImg
-                      alt={""}
-                      className={classNames(sty.img___6N8E8)}
-                      displayHeight={
-                        hasVariant(globalVariants, "screen", "mobile")
-                          ? "562px"
-                          : "562px"
-                      }
-                      displayMaxHeight={"none"}
-                      displayMaxWidth={
-                        hasVariant(globalVariants, "screen", "mobile")
-                          ? "100%"
-                          : "100%"
-                      }
-                      displayMinHeight={"0"}
-                      displayMinWidth={"0"}
-                      displayWidth={
-                        hasVariant(globalVariants, "screen", "mobile")
-                          ? "947px"
-                          : "947px"
-                      }
-                      loading={
-                        hasVariant(globalVariants, "screen", "mobile")
-                          ? "lazy"
-                          : "lazy"
-                      }
-                      src={
-                        hasVariant(globalVariants, "screen", "mobile")
-                          ? {
-                              src: "/plasmic/planty/images/promowebp.webp",
-                              fullWidth: 720,
-                              fullHeight: 525,
-                              aspectRatio: undefined
-                            }
-                          : {
-                              src: "/plasmic/planty/images/promowebp.webp",
-                              fullWidth: 720,
-                              fullHeight: 525,
-                              aspectRatio: undefined
-                            }
-                      }
-                    />
-                  </div>
-                </div>
-              </div>
-            ) : null}
-            {true ? (
-              <div className={classNames(projectcss.all, sty.freeBox___16NuW)}>
-                {true ? (
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__twLdR)}
-                  >
-                    <p.Stack
-                      as={"div"}
-                      hasGap={true}
-                      className={classNames(projectcss.all, sty.freeBox__mySup)}
-                    >
-                      <p.Stack
-                        as={"div"}
-                        hasGap={true}
-                        className={classNames(
-                          projectcss.all,
-                          sty.freeBox__feOb
-                        )}
-                      >
-                        {(
-                          hasVariant(globalVariants, "screen", "mobile")
-                            ? true
-                            : true
-                        ) ? (
-                          <MenuButton
-                            data-plasmic-name={"menuButton"}
-                            data-plasmic-override={overrides.menuButton}
-                            className={classNames(
-                              "__wab_instance",
-                              sty.menuButton
-                            )}
-                          />
-                        ) : null}
-                        {(
-                          hasVariant(globalVariants, "screen", "mobile")
-                            ? true
-                            : true
-                        ) ? (
-                          <p.Stack
-                            as={"div"}
-                            hasGap={true}
-                            className={classNames(
-                              projectcss.all,
-                              sty.freeBox__duhIg
-                            )}
-                          >
-                            <p.PlasmicIcon
-                              PlasmicIconType={
-                                hasVariant(globalVariants, "screen", "mobile")
-                                  ? LogoWhitesvgIcon
-                                  : LogoWhitesvgIcon
-                              }
-                              className={classNames(
-                                projectcss.all,
-                                sty.svg__or9Fc
-                              )}
-                              role={"img"}
-                            />
-
-                            <p.PlasmicLink
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.a,
-                                projectcss.__wab_text,
-                                sty.link___3S7M
-                              )}
-                              component={Link}
-                              href={
-                                hasVariant(globalVariants, "screen", "mobile")
-                                  ? "#"
-                                  : "/plasmic/store"
-                              }
-                              platform={"nextjs"}
-                            >
-                              {hasVariant(globalVariants, "screen", "mobile")
-                                ? "Store"
-                                : "Store"}
-                            </p.PlasmicLink>
-
-                            <p.PlasmicLink
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.a,
-                                projectcss.__wab_text,
-                                sty.link__tn69J
-                              )}
-                              component={Link}
-                              href={
-                                hasVariant(globalVariants, "screen", "mobile")
-                                  ? "#"
-                                  : "/plasmic/about"
-                              }
-                              platform={"nextjs"}
-                            >
-                              {hasVariant(globalVariants, "screen", "mobile")
-                                ? "About"
-                                : "About"}
-                            </p.PlasmicLink>
-
-                            <p.PlasmicLink
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.a,
-                                projectcss.__wab_text,
-                                sty.link__a5FiN
-                              )}
-                              component={Link}
-                              href={
-                                hasVariant(globalVariants, "screen", "mobile")
-                                  ? "#"
-                                  : "/plasmic/faq"
-                              }
-                              platform={"nextjs"}
-                            >
-                              {hasVariant(globalVariants, "screen", "mobile")
-                                ? "Faq"
-                                : "Faq"}
-                            </p.PlasmicLink>
-                          </p.Stack>
-                        ) : null}
-
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.freeBox__tqjqG
-                          )}
-                        >
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__szo8O
-                            )}
-                          >
-                            {hasVariant(globalVariants, "screen", "mobile")
-                              ? "© Company. All rights reserved. This site proudly built with "
-                              : "© Company. All rights reserved. This site proudly built with "}
-                          </div>
-
-                          <p.PlasmicLink
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.a,
-                              projectcss.__wab_text,
-                              sty.link__o6I4
-                            )}
-                            component={Link}
-                            href={
-                              hasVariant(globalVariants, "screen", "mobile")
-                                ? "https://www.plasmic.app/"
-                                : "https://www.plasmic.app/"
-                            }
-                            platform={"nextjs"}
-                          >
-                            {hasVariant(globalVariants, "screen", "mobile")
-                              ? "Plasmic"
-                              : "Plasmic"}
-                          </p.PlasmicLink>
-                        </div>
-                      </p.Stack>
-                    </p.Stack>
-                  </div>
-                ) : null}
-              </div>
-            ) : null}
-          </div>
         </div>
       </div>
     </React.Fragment>
@@ -2109,8 +1887,7 @@ const PlasmicDescendants = {
     "header",
     "featureItem",
     "bigPlants",
-    "cactuses",
-    "menuButton"
+    "cactuses"
   ],
 
   foreground2: ["foreground2", "h1"],
@@ -2118,8 +1895,7 @@ const PlasmicDescendants = {
   header: ["header", "featureItem"],
   featureItem: ["featureItem"],
   bigPlants: ["bigPlants"],
-  cactuses: ["cactuses"],
-  menuButton: ["menuButton"]
+  cactuses: ["cactuses"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -2157,7 +1933,6 @@ export const PlasmicFaq = Object.assign(
     featureItem: makeNodeComponent("featureItem"),
     bigPlants: makeNodeComponent("bigPlants"),
     cactuses: makeNodeComponent("cactuses"),
-    menuButton: makeNodeComponent("menuButton"),
     // Metadata about props expected for PlasmicFaq
     internalVariantProps: PlasmicFaq__VariantProps,
     internalArgProps: PlasmicFaq__ArgProps

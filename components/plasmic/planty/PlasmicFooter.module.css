@@ -406,6 +406,9 @@
     min-width: 0;
   }
 }
+.link__vx8A2 {
+  display: flex;
+}
 .svg__cgOim {
   object-fit: cover;
   max-width: 100%;
