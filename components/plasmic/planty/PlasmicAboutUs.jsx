@@ -99,7 +99,7 @@ function PlasmicAboutUs__RenderFunc(props) {
                     sty.store
                   )}
                   component={Link}
-                  href={"/plasmic/store"}
+                  href={"/plasmiclink/store"}
                   platform={"nextjs"}
                 >
                   {"Store"}
@@ -115,7 +115,7 @@ function PlasmicAboutUs__RenderFunc(props) {
                     sty.store2
                   )}
                   component={Link}
-                  href={"/plasmic/about"}
+                  href={"/plasmiclink/about"}
                   platform={"nextjs"}
                 >
                   {"About"}
