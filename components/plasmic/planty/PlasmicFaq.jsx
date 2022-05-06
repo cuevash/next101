@@ -1999,7 +1999,7 @@ function PlasmicFaq__RenderFunc(props) {
                               href={
                                 hasVariant(globalVariants, "screen", "mobile")
                                   ? "#"
-                                  : "/store"
+                                  : "/plasmic/store"
                               }
                               platform={"nextjs"}
                             >
@@ -2019,7 +2019,7 @@ function PlasmicFaq__RenderFunc(props) {
                               href={
                                 hasVariant(globalVariants, "screen", "mobile")
                                   ? "#"
-                                  : "/whonows/about"
+                                  : "/plasmic/about"
                               }
                               platform={"nextjs"}
                             >
@@ -2039,7 +2039,7 @@ function PlasmicFaq__RenderFunc(props) {
                               href={
                                 hasVariant(globalVariants, "screen", "mobile")
                                   ? "#"
-                                  : "/faq"
+                                  : "/plasmic/faq"
                               }
                               platform={"nextjs"}
                             >

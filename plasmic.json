@@ -49,7 +49,7 @@
           "projectId": "pHEc37smer1Q6xynjofQze",
           "renderModuleFilePath": "plasmic/planty/PlasmicHome.jsx",
           "importSpec": {
-            "modulePath": "../pages/index.jsx"
+            "modulePath": "../pages/plasmic/home.jsx"
           },
           "cssFilePath": "plasmic/planty/PlasmicHome.module.css",
           "scheme": "blackbox",
@@ -219,7 +219,7 @@
           "projectId": "pHEc37smer1Q6xynjofQze",
           "renderModuleFilePath": "plasmic/planty/PlasmicStore.jsx",
           "importSpec": {
-            "modulePath": "../pages/store.jsx"
+            "modulePath": "../pages/plasmic/store.jsx"
           },
           "cssFilePath": "plasmic/planty/PlasmicStore.module.css",
           "scheme": "blackbox",
@@ -245,7 +245,7 @@
           "projectId": "pHEc37smer1Q6xynjofQze",
           "renderModuleFilePath": "plasmic/planty/PlasmicFaq.jsx",
           "importSpec": {
-            "modulePath": "../pages/faq.jsx"
+            "modulePath": "../pages/plasmic/faq.jsx"
           },
           "cssFilePath": "plasmic/planty/PlasmicFaq.module.css",
           "scheme": "blackbox",
@@ -258,7 +258,7 @@
           "projectId": "pHEc37smer1Q6xynjofQze",
           "renderModuleFilePath": "plasmic/planty/PlasmicAboutUs.jsx",
           "importSpec": {
-            "modulePath": "../pages/whonows/about.jsx"
+            "modulePath": "../pages/plasmic/about.jsx"
           },
           "cssFilePath": "plasmic/planty/PlasmicAboutUs.module.css",
           "scheme": "blackbox",
@@ -284,7 +284,7 @@
           "projectId": "pHEc37smer1Q6xynjofQze",
           "renderModuleFilePath": "plasmic/planty/PlasmicSinglePage.jsx",
           "importSpec": {
-            "modulePath": "../pages/product.jsx"
+            "modulePath": "../pages/plasmic/product.jsx"
           },
           "cssFilePath": "plasmic/planty/PlasmicSinglePage.module.css",
           "scheme": "blackbox",

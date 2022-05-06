@@ -89,7 +89,7 @@ function PlasmicHeader__RenderFunc(props) {
               sty.link__gUrBh
             )}
             component={Link}
-            href={"/"}
+            href={"/plasmic/home"}
             platform={"nextjs"}
           >
             <LogoWhitesvgIcon
@@ -126,7 +126,7 @@ function PlasmicHeader__RenderFunc(props) {
                 sty.link__vcZu4
               )}
               component={Link}
-              href={"/store"}
+              href={"/plasmic/store"}
               platform={"nextjs"}
             >
               {"Store"}
@@ -140,7 +140,7 @@ function PlasmicHeader__RenderFunc(props) {
                 sty.link__riU6
               )}
               component={Link}
-              href={"/whonows/about"}
+              href={"/plasmic/about"}
               platform={"nextjs"}
             >
               {"About"}
@@ -154,7 +154,7 @@ function PlasmicHeader__RenderFunc(props) {
                 sty.link___7Wewr
               )}
               component={Link}
-              href={"/faq"}
+              href={"/plasmic/faq"}
               platform={"nextjs"}
             >
               {"Faq"}

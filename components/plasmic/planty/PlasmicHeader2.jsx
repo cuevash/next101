@@ -68,7 +68,7 @@ function PlasmicHeader2__RenderFunc(props) {
         <p.PlasmicLink
           className={classNames(projectcss.all, projectcss.a, sty.link__ceaCr)}
           component={Link}
-          href={"/"}
+          href={"/plasmic/home"}
           platform={"nextjs"}
         >
           <Logo4SvgIcon
@@ -91,7 +91,7 @@ function PlasmicHeader2__RenderFunc(props) {
               sty.link__wmDf5
             )}
             component={Link}
-            href={"/store"}
+            href={"/plasmic/store"}
             platform={"nextjs"}
           >
             {"Store"}
@@ -105,7 +105,7 @@ function PlasmicHeader2__RenderFunc(props) {
               sty.link__xLs2C
             )}
             component={Link}
-            href={"/whonows/about"}
+            href={"/plasmic/about"}
             platform={"nextjs"}
           >
             {"About"}
@@ -119,7 +119,7 @@ function PlasmicHeader2__RenderFunc(props) {
               sty.link__n0Brg
             )}
             component={Link}
-            href={"/faq"}
+            href={"/plasmic/faq"}
             platform={"nextjs"}
           >
             {hasVariant(globalVariants, "screen", "mobile") ? "Faq" : "Faq"}

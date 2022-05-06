@@ -185,7 +185,7 @@ function PlasmicFooter__RenderFunc(props) {
                   sty.link__c1LsG
                 )}
                 component={Link}
-                href={"/store"}
+                href={"/plasmic/store"}
                 platform={"nextjs"}
               >
                 {"Store"}
@@ -199,7 +199,7 @@ function PlasmicFooter__RenderFunc(props) {
                   sty.link__jCtlS
                 )}
                 component={Link}
-                href={"/whonows/about"}
+                href={"/plasmic/about"}
                 platform={"nextjs"}
               >
                 {"About"}
@@ -213,7 +213,7 @@ function PlasmicFooter__RenderFunc(props) {
                   sty.link__o6NyD
                 )}
                 component={Link}
-                href={"/faq"}
+                href={"/plasmic/faq"}
                 platform={"nextjs"}
               >
                 {"Faq"}
