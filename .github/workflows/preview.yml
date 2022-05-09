@@ -1,8 +1,7 @@
-# .github/workflows/netlify.yml
 name: Build and Deploy Production to Netlify
 
 on:
-  repository_dispatch:
+  workflow_dispatch:
 
 jobs:
   build:
