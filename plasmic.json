@@ -315,6 +315,19 @@
           "cssFilePath": "plasmic/planty/PlasmicStdLink.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "6wbL_yLZ6qL",
+          "name": "Home2",
+          "type": "managed",
+          "projectId": "pHEc37smer1Q6xynjofQze",
+          "renderModuleFilePath": "plasmic/planty/PlasmicHome2.jsx",
+          "importSpec": {
+            "modulePath": "Home2.jsx"
+          },
+          "cssFilePath": "plasmic/planty/PlasmicHome2.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
