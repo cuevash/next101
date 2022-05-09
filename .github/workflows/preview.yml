@@ -1,0 +1,42 @@
+# .github/workflows/netlify.yml
+name: Build and Deploy Production to Netlify
+
+on:
+  repository_dispatch:
+
+jobs:
+  build:
+    name: build and deploy on production
+    runs-on: ubuntu-latest
+
+    steps:
+      - id: checkout
+        name: Checking out repository...
+        uses: actions/checkout@v3
+
+      - id: node
+        name: Setting up node v14...
+        uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+
+      - name: Build
+        run: |
+          npm install
+          npm run build
+
+      - name: Deploy to Netlify
+        uses: nwtgck/actions-netlify@v1.2
+        with:
+          publish-dir: "./build"
+          production-branch: main
+          deploy-message: "Deploy from GitHub Actions"
+          enable-pull-request-comment: false
+          enable-commit-comment: true
+          overwrites-pull-request-comment: true
+          github-deployment-environment: "production"
+          fails-without-credentials: true
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        timeout-minutes: 1
