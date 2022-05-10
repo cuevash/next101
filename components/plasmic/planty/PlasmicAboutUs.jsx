@@ -151,13 +151,22 @@ function PlasmicAboutUs__RenderFunc(props) {
                     className={classNames(projectcss.all, sty.freeBox__fL0Il)}
                   >
                     <h1
-                      data-plasmic-name={"h1"}
-                      data-plasmic-override={overrides.h1}
                       className={classNames(
                         projectcss.all,
                         projectcss.h1,
                         projectcss.__wab_text,
-                        sty.h1
+                        sty.h1__skPdc
+                      )}
+                    >
+                      {"We are Planty"}
+                    </h1>
+
+                    <h1
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h1,
+                        projectcss.__wab_text,
+                        sty.h1__cDFf
                       )}
                     >
                       {"We are Planty"}
@@ -1501,6 +1510,17 @@ function PlasmicAboutUs__RenderFunc(props) {
                         {"Testimonials"}
                       </h2>
 
+                      <h2
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.h2,
+                          projectcss.__wab_text,
+                          sty.h2___7JxF8
+                        )}
+                      >
+                        {"Testimonials"}
+                      </h2>
+
                       <div
                         className={classNames(
                           projectcss.all,
@@ -1613,7 +1633,6 @@ const PlasmicDescendants = {
     "store2",
     "stdLink",
     "foreground2",
-    "h1",
     "header",
     "featureItem",
     "bigPlants",
@@ -1625,8 +1644,7 @@ const PlasmicDescendants = {
   store: ["store"],
   store2: ["store2"],
   stdLink: ["stdLink"],
-  foreground2: ["foreground2", "h1"],
-  h1: ["h1"],
+  foreground2: ["foreground2"],
   header: ["header", "featureItem"],
   featureItem: ["featureItem"],
   bigPlants: ["bigPlants"],
@@ -1668,7 +1686,6 @@ export const PlasmicAboutUs = Object.assign(
     store2: makeNodeComponent("store2"),
     stdLink: makeNodeComponent("stdLink"),
     foreground2: makeNodeComponent("foreground2"),
-    h1: makeNodeComponent("h1"),
     header: makeNodeComponent("header"),
     featureItem: makeNodeComponent("featureItem"),
     bigPlants: makeNodeComponent("bigPlants"),
