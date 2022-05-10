@@ -30,11 +30,6 @@ jobs:
         with:
           key: lock-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}
           path: ${{ github.event.client_payload.data.directory }}/node_modules
-
-      - name: Echo payload
-        run: |
-          echo Hello ${{ github.event.client_payload }}
-
       - id: init
         name: Initializing Plasmic app...
         uses: plasmicapp/plasmic-action@master
