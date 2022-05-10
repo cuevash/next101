@@ -168,7 +168,7 @@
     margin-top: 40px;
   }
 }
-.h1 {
+.h1__skPdc {
   font-size: 64px;
   font-weight: 700;
   line-height: 1;
@@ -176,7 +176,20 @@
   text-align: center;
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .h1 {
+  .h1__skPdc {
+    font-size: 35px;
+  }
+}
+.h1__cDFf {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--token-kH5VOkXvwiilsT);
+  text-align: center;
+  font-family: "Tangerine";
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .h1__cDFf {
     font-size: 35px;
   }
 }
