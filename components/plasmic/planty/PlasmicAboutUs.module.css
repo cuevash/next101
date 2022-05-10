@@ -2262,6 +2262,20 @@
     font-size: 32px;
   }
 }
+.h2___7JxF8 {
+  position: relative;
+  width: auto;
+  height: auto;
+  color: var(--token-kH5VOkXvwiilsT);
+  font-size: 42px;
+  font-weight: 600;
+  font-family: "Tangerine";
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .h2___7JxF8 {
+    font-size: 32px;
+  }
+}
 .text___9Urga {
   width: auto;
   height: auto;
