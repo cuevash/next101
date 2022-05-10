@@ -42,6 +42,7 @@ jobs:
           publish-dir: "./build"
           production-branch: main
           deploy-message: "Deploy from GitHub Actions"
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           enable-pull-request-comment: false
           enable-commit-comment: true
           overwrites-pull-request-comment: true
