@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export -o build",
-    "start": "next start"
+    "start": "serve ./build"
   },
   "dependencies": {
     "@plasmicapp/cli": "^0.1.178",
