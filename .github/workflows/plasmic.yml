@@ -33,7 +33,7 @@ jobs:
 
       - name: Echo payload
         run: |
-          echo Hello {{ github.event.client_payload }}
+          echo Hello ${{ github.event.client_payload }}
 
       - id: init
         name: Initializing Plasmic app...
