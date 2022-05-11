@@ -50,6 +50,7 @@ jobs:
           scheme: ${{ github.event.client_payload.data.scheme }}
           title: ${{ github.event.client_payload.data.title }}
           description: ${{ github.event.client_payload.data.description }}
+
       - id: sync
         name: Syncing Plasmic project...
         if: ${{ github.event.client_payload.data.scheme == 'codegen' && steps.init.outputs.synced != 'true' }}
