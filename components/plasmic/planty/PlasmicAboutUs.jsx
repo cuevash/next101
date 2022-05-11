@@ -158,7 +158,7 @@ function PlasmicAboutUs__RenderFunc(props) {
                         sty.h1__skPdc
                       )}
                     >
-                      {"We are Planty2"}
+                      {"We are Planty3"}
                     </h1>
 
                     <h1
